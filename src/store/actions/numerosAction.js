@@ -6,3 +6,10 @@ export function alterarNumeroMinimo(novoNumero) {
         payload: novoNumero
     }
 }
+
+export function alterarNumeroMaximo(novoNumero) {
+    return {
+        type: 'NUM-MAX-ALTERADO',
+        payload: novoNumero
+    }
+}
